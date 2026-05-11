@@ -1,0 +1,2 @@
+test_id,base_url,login_url,username_field_id,password_field_id,login_button_id,course_index_url,search_input_id,search_button_css,username,password,keyword,expected_course,expected_course_url_fragment
+TC-004-009,https://school.moodledemo.net,https://school.moodledemo.net/login/index.php,username,password,loginbtn,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,student,moodle26,Biology,General Biology (Foundation),id=77

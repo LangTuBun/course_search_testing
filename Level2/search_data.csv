@@ -1,0 +1,11 @@
+test_id,base_url,search_input_id,search_button_css,keyword,expected_result,expected_url_fragment
+TC-004-001,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,,all_courses_or_prompt,
+TC-004-002,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,a,results_page_loaded,search.php
+TC-004-003,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,Biology,General Biology (Foundation),
+TC-004-004,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,$REPEAT_a_300,No courses were found,
+TC-004-005,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,Psychology,Psychology in Cinema,
+TC-004-006,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,xyznonexistent,No courses were found,
+TC-004-007,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,@#$%^&*,no_crash,
+TC-004-008,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,DIGITAL,Digital Literacy,
+TC-004-010,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,History,History: Russia in Revolution,
+TC-004-011,https://school.moodledemo.net/course/index.php,input[name='search'],button.search-icon,QuantumXYZ,MULTI_STEP_011,

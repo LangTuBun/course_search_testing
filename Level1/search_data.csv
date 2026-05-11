@@ -1,0 +1,11 @@
+test_id,keyword,expected_result,expected_url_fragment
+TC-004-001,,all_courses_or_prompt,
+TC-004-002,a,results_page_loaded,search.php
+TC-004-003,Biology,General Biology (Foundation),
+TC-004-004,$REPEAT_a_300,No courses were found,
+TC-004-005,Psychology,Psychology in Cinema,
+TC-004-006,xyznonexistent,No courses were found,
+TC-004-007,@#$%^&*,no_crash,
+TC-004-008,DIGITAL,Digital Literacy,
+TC-004-010,History,History: Russia in Revolution,
+TC-004-011,QuantumXYZ,MULTI_STEP_011,
